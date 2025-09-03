@@ -20,7 +20,7 @@ public class Login {
 	@When("Enter email and password and then click login button")
 	public void enter_email_and_password_and_then_click_login_button() {
 		OpenCartPOM ocp = new OpenCartPOM(driver);
-		ocp.login("devendra7981676@gmail.com", "deva");
+		ocp.login("devendra79816769@gmail.com", "deva");
 	}
 
 	@Then("login successful")
