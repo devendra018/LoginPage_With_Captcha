@@ -110,7 +110,7 @@ public class OpenCartPOM {
 	}
 	
 	public void addToCart(String quantity) {
-		login("devendra7981676@gmail.com", "deva");
+		login("devendra79816769@gmail.com", "deva");
 		search("macbook");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(imgButton)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(productQuantityButton)).clear();
@@ -119,7 +119,7 @@ public class OpenCartPOM {
 	}
 	
 	public void removeFromCart() {
-		login("devendra7981676@gmail.com", "deva");
+		login("devendra79816769@gmail.com", "deva");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(shoppingCartButton)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(productRemoveButtom)).click();
 	}
@@ -133,7 +133,7 @@ public class OpenCartPOM {
 	}
 	
 	public void addAddress(String FirstName, String LastName, String Address, String City,String PostCode, String Country, String State) {
-		login("devendra7981676@gmail.com", "deva");
+		login("devendra79816769@gmail.com", "deva");
 		driver.findElement(myAccountButton).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(accountInfoButton)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(modifyAddress)).click();
@@ -155,7 +155,7 @@ public class OpenCartPOM {
 	
 	
 	public void changePassword(String Password, String ConfirmPassWord) {
-		login("devendra7981676@gmail.com", "deva");
+		login("devendra79816769@gmail.com", "deva");
 		driver.findElement(myAccountButton).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(accountInfoButton)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(changePassword)).click();
@@ -174,7 +174,7 @@ public class OpenCartPOM {
 	
 	
 	public void logout() {
-		login("devendra7981676@gmail.com", "deva");
+		login("devendra79816769@gmail.com", "deva");
 		home();
 		driver.findElement(myAccountButton).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(logoutButton)).click();
