@@ -24,7 +24,7 @@ public class Register {
 	@When("Enter Data in all fields and click continue")
 	public void enter_data_in_all_fields_and_click_continue() {
 		OpenCartPOM ocp = new OpenCartPOM(driver);
-		ocp.register("Devendra", "K", "devendra7981676@gmail.com", "1234567890", "deva", "deva");
+		ocp.register("Devendra", "K", "devendra79816769@gmail.com", "1234567890", "deva", "deva");
 	}
 
 	@Then("Account should be created")
