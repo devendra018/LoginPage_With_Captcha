@@ -129,7 +129,9 @@ public class OpenCartPOM {
 	}
 	
 	public void checkout() {
+		addToCart("1");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(checkoutButton)).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(productCheckoutButton)).click();
 	}
 	
 	public void addAddress(String FirstName, String LastName, String Address, String City,String PostCode, String Country, String State) {
